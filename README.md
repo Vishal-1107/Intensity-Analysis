@@ -18,9 +18,9 @@ The following machine learning models were employed in the project:
 
 The accuracy achieved based on each model during evaluation is as follows:
 
-- Naive Bayes: 77%
-- Random Forest: 61%
-- Logistic Regression: 77%
+- Naive Bayes: 70%
+- Random Forest: 76%
+- Logistic Regression: 75%
 
 ## Getting Started
 
