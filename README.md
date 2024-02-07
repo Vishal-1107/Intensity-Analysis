@@ -31,23 +31,13 @@ Make sure you have the following dependencies installed:
 - **Python:**
    - Ensure that Python is installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 - **Python Libraries:**
-   -*Install the required Python libraries by running the following command:
-   - import pandas as pd
-   - import numpy as np
-   - import nltk
-   - import re
-   - nltk.download("stopwords")
-   - nltk.download("punkt")
-- **Visualisation Library**
-  -import matplotlib.pyplot as plt
+  - Numpy    - import pandas as pd
+  - Pandas   - import numpy as np
+  - NLTK     - import nltk
+  - RegularExpressions   - import re
+  - Matplotlib   -import matplotlib.pyplot as plt
+  - Sklearn   
 
-- **Feature Transformation Library**
-  -from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-  -from sklearn.model_selection import train_test_split
-  -from sklearn.ensemble import RandomForestClassifier
-  -from sklearn.linear_model import LogisticRegression
-  -from sklearn.naive_bayes import MultinomialNB
+   
 
-- **Classification Report and model evaluation**
-  -from sklearn.metrics import roc_auc_score, classification_report
      
