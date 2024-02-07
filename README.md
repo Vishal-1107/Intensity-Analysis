@@ -36,23 +36,18 @@ Make sure you have the following dependencies installed:
    - import numpy as np
    - import nltk
    - import re
-     
-     nltk.download("stopwords")
-     nltk.download("punkt")
+   - nltk.download("stopwords")
+   - nltk.download("punkt")
+- **Visualisation Library**
+  -import matplotlib.pyplot as plt
 
-     from nltk.corpus import stopwords
-     from nltk.tokenize import word_tokenize
+- **Feature Transformation Library**
+  -from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+  -from sklearn.model_selection import train_test_split
+  -from sklearn.ensemble import RandomForestClassifier
+  -from sklearn.linear_model import LogisticRegression
+  -from sklearn.naive_bayes import MultinomialNB
 
-  # Visualisation Library
-  import matplotlib.pyplot as plt
-
-  # Feature Transformation Library
-  from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-  from sklearn.model_selection import train_test_split
-  from sklearn.ensemble import RandomForestClassifier
-  from sklearn.linear_model import LogisticRegression
-  from sklearn.naive_bayes import MultinomialNB
-
-  # Classification Report and model evaluation
-  from sklearn.metrics import roc_auc_score, classification_report
+- **Classification Report and model evaluation**
+  -from sklearn.metrics import roc_auc_score, classification_report
      
